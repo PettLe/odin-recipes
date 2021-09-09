@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+body {
+    font-family: Poppins, sans-serif;
+    background: rgba(176, 252, 195, 0.3)}
+h1 {
+    text-align: center;
+}
+p, li{
+    text-align: center;
+    margin: auto;
+    width: 70%;
+    padding: 0.5vh;
+}
+.recipe{
+    font-weight: 500;
+}
+ol li, ul li, .recipe {
+   text-align: justify;
+   margin: auto;
+   width: 50%; 
+}
+ul li {
+    color: rgb(102, 102, 102);
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+a {
+    
+    color: black;
+}
+a:hover {
+    border: 1px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(18, 29, 21, 0.3);
+    text-decoration: none;
+}
+
